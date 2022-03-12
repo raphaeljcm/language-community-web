@@ -4,6 +4,8 @@ function menuToggle() {
   const searchInput = document.querySelector('.search input');
   const searchDiv = document.querySelector('.search');
 
+  searchInput.focus();
+
   menuButton.addEventListener('click', () => {
     main.classList.toggle('active');
   });
