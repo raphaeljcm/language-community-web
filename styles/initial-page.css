@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; 
+}
+
+:root {
+  --background-orange: #FF8000;
+  --light-orange: #FFE0C1;
+}
+
+html {
+  font-size: 93.75%; /* 1rem = 15px */
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-image: url("../assets/wave-background.png"); 
+  background-repeat: no-repeat;
+  background-position: center -30rem;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a, li, ul {
+  list-style: none;
+  text-decoration: none; 
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 3rem;
+}
+
+header .title h1, h2 {
+  font-size: 5rem;
+  color: #fff;
+}
+
+header .title h2 {
+  font-weight: 100;
+  margin-top: -30px;
+}
+
+header .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+header .buttons a.button {
+  background-color: #FFF;
+  color: #000;
+  border: none;
+  border-radius: 6.66rem;
+  padding: 1.46rem 3rem;
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+
+  transition: all .5s;
+}
+
+header .buttons a.button:hover {
+  color: #FFF;
+  background-color: #000;
+}
+
+header .buttons a.button:active {
+  transform: translateY(10px);
+}
+
+main {
+  width: 70rem;
+  margin-left: 5rem;
+  margin-bottom: 10rem;
+}
+
+main p {
+  font-size: 2rem;
+}
