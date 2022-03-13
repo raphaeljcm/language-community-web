@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles/forum.css">
+    <link rel="stylesheet" href="../styles/initial-page.css">
+    <link rel="shortcut icon" href="../assets/languages.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+    <script defer src="../script.js"></script>
+
+    <title>Fórum</title>
+</head>
+<body>
+    <main>
+        <section class="nav-bar">
+          <div class="nav-bar-header">
+            <header>
+              <p>Language Community</p>
+              <div class="toggle-button">
+                <img src="../assets/toggle-menu.svg" alt="Toggle button img">
+              </div>
+            </header>
+            <div class="search active">
+              <input type="search" placeholder="Search">
+            </div>
+            <nav>
+              <ul>
+                <li><a href="#"><img src="../assets/discover.svg" alt="discover icon"><span>Discover</span></a></li>
+                <li><a href="#"><img src="../assets/chat.svg" alt="chat icon"><span>Bate Papo</span></a></li>
+                <li><a href="#"><img src="../assets/profile.svg" alt="profile icon"><span>Perfil</span></a></li>
+                <li><a href="#"><img src="../assets/community.svg" alt="community icon"><span>Fórum</span></a></li>
+              </ul>
+            </nav>
+          </div>
+          <footer class="footer">
+            <div class="footer-wrapper">
+              <div class="footer-description">
+                <img src="../assets/weird-girl.png" alt="user photo">
+                <div class="footer-description-user">
+                  <h2>Sheila Carvalho</h2>
+                </div>
+              </div>
+              <div class="footer-logout-button">
+                <img src="../assets/log-out.svg" alt="log-out icon">
+              </div>
+            </div>
+          </footer>
+        </section>  
+        <section class="forum-background">
+            <div class="top-search">
+            <input type="search" name="topic-search" id="search" placeholder="Pesquise por um tópico...">
+            <div id="search-icon"><img src="../assets/search.svg" alt="search-icon"></div>
+          </div>
+          <div class="main-forum">
+            <div class="forum-filter">
+                <div class="filter-option">
+                    <img class="img" src="../assets/fogo.svg" alt="icone de fogo">
+                    <h1>Em destaque</h1>
+                </div>
+                <div class="filter-option">
+                    <img id="img-recente" src="../assets/recente.svg" alt="icone de recente">
+                    <h1 id="titulo-recente">Recentes</h1>
+                </div>
+                <div class="filter-option">
+                    <img class="img" src="../assets/upvote.svg" alt="icone de voto">
+                    <h1>Mais votados</h1>
+                </div>
+            </div>
+            <article>
+                <h1>Alguém para treinar francês?</h1>
+                <p>Alguem aqui tem o interesse de começar a aprender o básico do francês?</p>
+            </article>
+            <article>
+                <h1>O que significa disease?</h1>
+                <p>Qual o significado da palavra disease?</p>
+            </article>
+            <article>
+                <h1>Diferença na pronúncia de ''world'' e ''word''</h1>
+                <p>Qual a diferença na pronúncia entre essas duas palavras?</p>
+            </article>
+            <article>
+                <h1>qual o significado de "if you will" em ingles?</h1>
+                <p>Gostaria de alguns exemplos</p>
+            </article>
+          </div>
+        </section>  
+      </main>
+</body>
+</html>

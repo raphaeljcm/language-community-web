@@ -37,6 +37,7 @@ a, li, ul {
   flex-direction: column;
   justify-content: space-between;
   transition: all 1s; 
+  position: fixed;
 }
 
 .nav-bar-header {

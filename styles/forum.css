@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+  }
+  
+  :root {
+    --background-orange: #FF8000;
+    --light-orange: #FFE0C1;
+  }
+  
+  html {
+    font-size: 93.75%; /* 1rem = 15px */
+  }
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--background-orange); 
+  }
+  
+  main {
+    display: flex;
+    color: #FFF;
+  }
+  
+  a, li, ul {
+    list-style: none;
+    text-decoration: none; 
+  }
+
+  .forum-background{
+    padding-left: 5rem;
+    background-color: var(--light-orange);
+    width: 100%;
+    height: 100%;
+  }
+
+  .top-search{
+    height: 6.667rem;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #search{
+    width: 60rem;
+    height: 3.333rem;
+    border-radius: 30rem;
+    border: 0.5px solid #C4C4C4;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
+  }
+
+  #search::placeholder{
+    padding-left: 1.333rem;
+    color: #C4C4C4;
+  }
+
+  #search-icon{
+    margin-left: -2.666rem;
+  }
+
+  .main-forum{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .forum-filter{
+    margin-top: 2rem;
+    height: 6.666rem;
+    width: 60rem;
+    background-color: #FFF;
+    border-radius: 0.666rem;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+  }
+
+  .filter-option{
+    width: 16rem;
+    color: #000;
+    margin-left: 5rem;
+    display: flex;
+  }
+
+  .filter-option:hover{
+    color: #FF8000;
+    transition: all 0.7s;
+    cursor: pointer;
+  }
+
+  #titulo-recente{
+      padding-top: 0.33rem;
+  }
+
+  #img-recente{
+    width: 2.9rem;
+  }
+
+  .img{
+      width: 2.33rem;
+  }
+
+  .main-forum article{
+    width: 60rem;
+    border-radius: 0.666rem;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
+    margin-top: 2rem;
+    padding: 1.5rem 2rem 2rem 2rem;
+    background-color: #FFF;
+    color: #000;
+  }
+
+  .main-forum article h1:hover{
+    color: #FF8000;
+    transition: all 0.8s;
+    cursor: pointer;
+  }
