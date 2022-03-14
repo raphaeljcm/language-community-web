@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
   }
 
   .top-search{
@@ -37,15 +38,15 @@
     margin-left: -2.666rem;
   }
 
-  .main-forum{
-    height:130vh;
+  .main-forum {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: hidden;
   }
 
   .forum-filter{
-    margin-top: 2rem;
+    margin-top: .8rem;
     height: 6.666rem;
     width: 60rem;
     background-color: #FFF;
@@ -53,10 +54,12 @@
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
     display: flex;
     align-items: center;
+
+    position: fixed;
   }
 
   .forum-articles {
-    margin-top: 2rem;
+    margin-top: 8rem;
     overflow-y: scroll;
     width: 60rem;
 
@@ -109,8 +112,6 @@
   .page-control{
     background-color: var(--background-orange);
     display: flex;
-    justify-content: center;
-    margin-top: 2rem;
   }
 
   .page-options{
