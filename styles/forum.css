@@ -62,7 +62,7 @@
   }
 
   .main-forum{
-    height:100vh;
+    height:130vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +82,7 @@
   .filter-option{
     width: 16rem;
     color: #000;
-    margin-left: 5rem;
+    margin-left: 4rem;
     display: flex;
   }
 
@@ -109,7 +109,7 @@
     border-radius: 0.666rem;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
     margin-top: 2rem;
-    padding: 1.5rem 2rem 2rem 2rem;
+    padding: 1.5rem 2rem 1rem 2rem;
     background-color: #FFF;
     color: #000;
   }
@@ -119,3 +119,96 @@
     transition: all 0.8s;
     cursor: pointer;
   }
+
+  .page-control{
+    background-color: var(--background-orange);
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .page-options{
+    background-color: var(--light-orange);
+    color: var(--background-orange);
+    padding: 0.533rem 1rem;
+    margin: 1rem 1rem;
+    border-radius: 0.333rem;
+  }
+
+  .page-options:hover{
+    background-color: #000;
+    color: var(--background-orange);
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  .article-vote{
+    display: flex;
+  }
+
+  .upvote, .downvote{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+  }
+
+  .report{
+    width: 1rem;
+    height: 1rem;
+    margin: 1.5rem 0rem 0rem 1.5rem;
+  }
+
+  .upvote, .downvote, .report:hover{
+    cursor: pointer;
+  }
+
+  .downvote{
+    margin: 1rem 0rem 0rem 1rem;
+  }
+
+  @media screen and (min-width: 201px) and (max-width: 600px){
+    html {
+      font-size: 60% !important; /* 1rem = 15px */
+    }
+
+    .top-search{
+      margin-left: 0.3rem;
+    }
+
+    #search{
+      width: 20rem;
+    }
+
+    #search::placeholder{
+      font-size: 1rem;
+    }
+
+    .main-forum{
+      margin-left: 1rem;
+      height: 100vh;
+    }
+
+    .forum-filter{
+      width: 20rem;
+      flex-direction: column;
+      height: 12rem;
+    }
+
+    .filter-option{
+      margin-top: 1rem;
+    }
+
+    .main-forum article{
+      width: 20rem;
+    }
+
+    .page-control{
+      margin-top: 2rem;
+      margin-left: 9rem;
+      width: 20rem;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+  }
+
