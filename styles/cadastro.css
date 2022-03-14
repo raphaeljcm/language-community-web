@@ -1,0 +1,80 @@
+body {
+    background-image: url("../assets/wave-background.png"); 
+    background-color: #F8F9FA !important;
+    background-repeat: no-repeat;
+    background-position: center 25rem;
+    
+}
+
+.card-body{
+    background-color: #FFE0C1 !important;
+}
+
+.legenda {
+    color: blue;
+}
+
+.feminino {
+    padding-right: 50px;
+}
+
+.masculino {
+    padding-right: 50px;
+}
+
+.cidade {
+    padding-right: 100px;
+}
+
+.estado {
+    padding-right: 100px;
+}
+
+.pais {
+    padding-right: 100px;
+}
+
+.bio {
+    width: 1256px;
+}
+
+.ingles {
+    padding-right: 62px;
+}
+
+.espanhol {
+    padding-right: 60px;
+}
+
+.mandarim {
+    padding-right: 50px;
+}
+
+.alemao {
+    padding-right: 50px;
+}
+
+.arabe {
+    padding-right: 82px;
+}
+
+.frances {
+    padding-right: 70px;
+}
+
+.japones {
+    padding-right: 47px;
+}
+
+.portugues {
+    padding-right: 50px;
+}
+
+.email {
+    padding-bottom: 10px;
+}
+
+.submmit {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
