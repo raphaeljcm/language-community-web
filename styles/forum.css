@@ -153,49 +153,86 @@
     margin: 1rem 0rem 0rem 1rem;
   }
 
-  @media screen and (min-width: 201px) and (max-width: 600px){
-    html {
-      font-size: 60% !important; /* 1rem = 15px */
-    }
-
+  @media screen and (max-width:1350px){
     .top-search{
-      margin-left: 0.3rem;
+      padding-left: 10rem;
     }
 
+    .forum-filter{
+      margin-left: 12rem;
+    }
+
+    .forum-articles{
+      margin-left: 12rem;
+    }
+
+    .page-control{
+      margin-left: 12rem;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    #search{
+      width: 35rem;
+    }
+
+    .forum-filter{
+      width: 35rem;
+    }
+
+    .filter-option{
+      margin-left: 1rem;
+    }
+
+    .forum-articles article{
+      width: 35rem;
+    }
+
+    .page-options{
+      padding: 0.5rem;
+      margin: 0.5rem;
+    }
+  }
+
+  @media screen and (max-width: 870px){
     #search{
       width: 20rem;
     }
 
-    #search::placeholder{
-      font-size: 1rem;
-    }
-
-    .main-forum{
-      margin-left: 1rem;
-      height: 100vh;
-    }
-
     .forum-filter{
-      width: 20rem;
       flex-direction: column;
-      height: 12rem;
+      width: 20rem;
+      height: 11rem;
     }
 
     .filter-option{
-      margin-top: 1rem;
+      padding: 0.5rem;
     }
 
-    .main-forum article{
+    .forum-articles{
+      margin-top: 12rem;
+    }
+
+    .forum-articles article{
       width: 20rem;
     }
 
     .page-control{
-      margin-top: 2rem;
-      margin-left: 1.5rem;
-      width: 20rem;
-      display: flex;
       flex-wrap: wrap;
     }
+  }
 
+  @media screen and (max-width: 600px){
+    .forum-articles{
+      margin-top: 13rem;
+    }
+
+    .top-search{
+      padding-left: 0rem;
+    }
+
+    .forum-filter, .forum-articles, .page-control{
+      margin-left: 3rem;
+    }
   }
 
