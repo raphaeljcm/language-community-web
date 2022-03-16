@@ -18,8 +18,18 @@
     align-items: center; 
 }
 
+.card-body:hover {
+  background-color: #FF8000;
+}
+
 .conversas {
   margin-top: 100px;
+}
+
+.btn-primary {
+  color:white !important;
+  background-color: #FF8000 !important;
+  border-color: black !important;
 }
 
 .botaoUsuario {
@@ -35,9 +45,17 @@
   border-radius: 50px;
 }
 
+.botaoUsuario:hover {
+  background-color: #FF8000;
+}
+
 .titulo-botao-usuario {
   padding-left: 160px;
   padding-top: 20px;
+}
+
+.titulo-botao-usuario:hover {
+  color: white;
 }
 
 
@@ -55,9 +73,17 @@
   border-radius: 50px;
 }
 
+.botaoProfessor:hover {
+  background-color: #FF8000;
+}
+
 .titulo-botao-professor {
   padding-left: 128px;
   padding-top: 20px;
+}
+
+.titulo-botao-professor:hover {
+  color: white;
 }
 
 * {
@@ -90,12 +116,21 @@ main {
   height: 100%;
 }
 
-a, li, ul {
-  list-style: none;
-  text-decoration: none; 
+h1 {
+  color: #FF8000;
 }
 
-.nav-bar {
+a {
+  text-decoration: none !important;
+  color: #000 !important; 
+}
+
+li, ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-bar  {
   max-width: 16.66rem;
   background-color: var(--background-orange);
   height: 100vh;
@@ -154,7 +189,7 @@ a, li, ul {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 1.6rem 0.93rem;
+  padding: 1.6rem 0.0rem;
   margin-top: 1.33rem; 
 }
 
