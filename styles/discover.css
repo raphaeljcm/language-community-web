@@ -1,0 +1,50 @@
+main {
+  background-color: var(--light-orange);
+}
+section.dashboard {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: var(--light-orange);
+}
+section.dashboard .current-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.dashboard aside {
+  display: flex;
+  justify-content: center;
+  padding: 3.10rem 2.18rem;
+  background-color: #C4C4C4;
+}
+section.dashboard aside h2 {
+  color: var(--background-orange);
+  font-size: 3rem;
+  margin-bottom: 6rem;
+}
+section.dashboard .contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+section.dashboard .contacts-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 2rem;
+}
+section.dashboard .contact {
+  height: 9.3rem;
+  width: 9rem;
+  cursor: pointer;
+
+  transition: all .3;
+}
+section.dashboard .contact:hover {
+  transform: scale(1.2);
+}
+section.dashboard .contact img {
+  height: 9rem;
+  width: 9rem;
+}

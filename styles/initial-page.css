@@ -218,8 +218,8 @@ main.active .nav-bar .footer-description {
 }
 
 section.dashboard {
-  padding: 1.2rem 1.2rem;
   background-color: #FFF;
+  margin-left: 20rem;
   width: 100%;
   height: 100%;
 }
