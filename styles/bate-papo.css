@@ -25,6 +25,10 @@
 .conversas {
   margin-top: 100px;
 }
+.conversas .col-9 h2,
+.conversas .col-9 h5 {
+  color: #000;
+}
 
 .btn-primary {
   color:white !important;
