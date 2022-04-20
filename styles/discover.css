@@ -1,3 +1,7 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
 main {
   background-color: var(--light-orange);
 }
@@ -5,6 +9,7 @@ section.dashboard {
   display: grid;
   grid-template-columns: 2fr 1fr;
   background-color: var(--light-orange);
+  box-sizing: border-box;
 }
 section.dashboard .current-user {
   display: flex;
@@ -108,4 +113,25 @@ section.dashboard .contact img {
   left: -3px;
   bottom: -4px;
   transform: rotate(-130deg);
+}
+@media screen and (max-width: 1300px) {
+  #current-user-id {
+    height: 30rem;
+  }
+  .arrow.right {
+    bottom: 2rem;
+    right: 1rem;
+  }
+  .arrow.left {
+    bottom: 2rem;
+    left: 1rem;
+  }
+  section.dashboard .contact {
+    height: 5rem;
+    width: 5rem;
+  }
+  section.dashboard .contact img {
+    height: 5rem;
+    width: 5rem;
+  }
 }
