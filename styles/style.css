@@ -80,6 +80,18 @@ header .buttons a.button:hover {
 header .buttons a.button:active {
   transform: translateY(10px);
 }
+.title {
+  position: relative;
+}
+
+#logo {
+  width: 8rem;
+  height: 8rem;
+  
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+}
 
 main {
   width: 70rem;

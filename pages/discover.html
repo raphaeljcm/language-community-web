@@ -26,9 +26,6 @@
             <img src="../assets/toggle-menu.svg" alt="Toggle button img">
           </div>
         </header>
-        <div class="search active">
-          <input type="search" placeholder="Search">
-        </div>
         <nav>
           <ul>
             <li><a href="./discover.html"><img src="../assets/discover.svg" alt="discover icon"><span>Discover</span></a></li>
@@ -47,7 +44,7 @@
             </div>
           </div>
           <div class="footer-logout-button">
-            <img src="../assets/log-out.svg" alt="log-out icon">
+            <a href="../index.html"><img src="../assets/log-out.svg" alt="log-out icon"></a>
           </div>
         </div>
       </footer>
@@ -55,7 +52,12 @@
     <section class="dashboard">
 
       <div class="current-user">
-        <img src="../assets/foto-atual.png" alt="usuário atual">
+        <div class="wrapper-img active">
+          <img src="../assets/img1.png" id="current-user-id" alt="usuário atual">
+          <img id="add" src="../assets/add.png"></img>
+          <div class="arrow left" id="arrow-left"></div>
+          <div class="arrow right" id="arrow-right"></div>
+        </div>
       </div>
 
       <aside class="contacts">
@@ -69,5 +71,7 @@
       </aside>
     </section>  
   </main>
+
+  <script src="../script.js"></script>
 </body>
 </html>

@@ -10,11 +10,13 @@ section.dashboard .current-user {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  position: relative;
 }
 section.dashboard aside {
   display: flex;
   justify-content: center;
-  padding: 3.10rem 2.18rem;
+  padding: 1.1rem 2.18rem;
   background-color: #C4C4C4;
 }
 section.dashboard aside h2 {
@@ -47,4 +49,63 @@ section.dashboard .contact:hover {
 section.dashboard .contact img {
   height: 9rem;
   width: 9rem;
+} 
+.wrapper-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-img #add {
+  position: absolute;
+  display: none;
+  cursor: pointer;
+}
+.wrapper-img #add.active {
+  display: block;
+}
+.arrow {
+  background-color: var(--background-orange);
+  height: 5px;
+  width: 50px;
+  margin: 0 auto;
+  cursor: pointer;
+
+  position: absolute;
+}
+.arrow.right {
+  bottom: 4rem;
+  right: 2rem;
+}
+.arrow.left {
+  bottom: 4rem;
+  left: 2rem;
+}
+.arrow::after,
+.arrow::before {
+    content: "";
+    background-color: var(--background-orange);
+    position: absolute;
+    height: 5px;
+    width: 15px;
+}
+.arrow.right::after {
+  right: -3px;
+  bottom: 5px;
+  transform: rotate(45deg);
+}
+.arrow.right::before {
+  right: -3px;
+  bottom: -4px;
+  transform: rotate(130deg);
+}
+.arrow.left::after {
+  left: -3px;
+  bottom: 5px;
+  transform: rotate(-45deg);
+}
+.arrow.left::before {
+  left: -3px;
+  bottom: -4px;
+  transform: rotate(-130deg);
 }
