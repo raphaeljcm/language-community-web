@@ -4,6 +4,12 @@ function menuToggle() {
 
   menuButton.addEventListener('click', () => {
     main.classList.toggle('active');
+    //Redimensionamento do fórum ao abrir o menu
+    if(document.querySelector('main').classList.contains('active')){
+      resize();
+    } else {
+      normal();
+    }
   });
 }
 
