@@ -1,3 +1,7 @@
+  *{
+    transition: all ease 1s;
+  }
+
   .forum-background{
     padding-left: 5rem;
     background-color: var(--light-orange);
@@ -112,6 +116,7 @@
   .page-control{
     background-color: var(--background-orange);
     display: flex;
+    width: 60rem;
   }
 
   .page-options{
@@ -159,7 +164,7 @@
     }
 
     .forum-filter{
-      margin-left: 12rem;
+      margin-left: 11.2rem;
     }
 
     .forum-articles{
@@ -192,6 +197,10 @@
       padding: 0.5rem;
       margin: 0.5rem;
     }
+
+    .page-control{
+      padding-left: 150px;
+    }
   }
 
   @media screen and (max-width: 870px){
@@ -209,16 +218,14 @@
       padding: 0.5rem;
     }
 
-    .forum-articles{
-      margin-top: 12rem;
-    }
-
     .forum-articles article{
       width: 20rem;
     }
 
     .page-control{
       flex-wrap: wrap;
+      padding-left: 50px;
+      width: 33.33rem;
     }
   }
 
@@ -233,6 +240,20 @@
 
     .forum-filter, .forum-articles, .page-control{
       margin-left: 3rem;
+    }
+
+    .page-control{
+      width: 26.66rem;
+      padding-left: 1.2rem;
+    }
+  }
+
+  @media screen and (max-width: 400px){
+    .forum-filter{
+      width: 15.33rem;
+    }
+    .page-control{
+      width: 16.66rem;
     }
   }
 
