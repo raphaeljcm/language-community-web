@@ -1,0 +1,55 @@
+.call-body {
+    justify-content: center;
+    background-color: #FFE0C1;
+    border-style: solid;
+    width: 1920px;
+    height: 788px;
+    color: black;
+}
+
+.friend-image {
+    margin-left: 960px;
+    margin-top: 35px;
+}
+
+.friend-name {
+    margin-left: 1041px;
+    padding-top: 5px;
+}
+
+.microphone {
+    width: 100px;
+    height: 150px;
+    margin-left: 890px;
+    margin-top: 250px;
+}
+
+.end-call {
+    width: 150px;
+    height: 150px;
+    margin-top: 250px;
+    padding-left: 25px;
+}
+
+.message {
+    width: 150px;
+    height: 150px;
+    margin-top: 250px;
+    padding-left: 25px;
+}
+
+.user-photo {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 250px;
+}
+
+.user-name {
+    color: white;
+    margin-left: 245px;
+}
+
+.call-header {
+    background-color: orange;
+}

@@ -1,0 +1,98 @@
+.chat-navbar {
+    background-color: #FFE0C1 !important;
+    margin-left: 280px;
+    background-color: white;
+    height: 150px;
+    width: 1500px;
+}
+
+.call-icon {
+    height: 60px;
+}
+
+.chat-body {
+    background-color: white;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #FF8000;
+    margin-left: 280px;
+    height: 780px;
+}
+
+.bubble-friend {
+    position: relative;
+    background: linear-gradient(-15deg, #dde6da 27%, #ebebeb 77%);
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 120px;
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 0px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.bubble-friend:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 20px 20px 0;
+    border-color: transparent #ebebeb transparent transparent;
+    top: 50%;
+    left: -20px;
+    margin-top: -10px;
+}
+
+.bubble {
+    position: relative;
+    background: linear-gradient(-15deg, #7eed5c 27%, #4fe322 77%);
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 120px;
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 0px;
+    margin-left: 1220px;
+    margin-top: 25px;
+}
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #4fe322 transparent transparent transparent;
+    top: 50%;
+    right: -20px;
+    margin-top: -10px;
+}
+
+.chat-info {
+    margin-left: 1225px;
+    color: black;
+}
+
+.chat-info-friend {
+    margin-left: 30px;
+    color: black;
+}
+
+.chat-input {
+    justify-content: center;
+    margin-top: 350px;
+    background-color: white !important;
+}
+
+.message-field {
+    width: 1200px;
+}
